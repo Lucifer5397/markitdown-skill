@@ -25,7 +25,7 @@
 
 **方式一：直接复制**
 ```bash
-git clone https://github.com/YOUR_USERNAME/markitdown-skill.git ~/.claude/skills/markitdown-converter/
+git clone https://github.com/Lucifer5397/markitdown-skill.git ~/.claude/skills/markitdown-converter/
 ```
 
 **方式二：ClawHub**
