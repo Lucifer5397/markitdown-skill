@@ -1,7 +1,8 @@
 # MarkItDown 转换器 — Claude Code Skill
 
 [![AgentSkill](https://img.shields.io/badge/AgentSkill-compatible-blue)](https://agentskills.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-red.svg)](LICENSE)
+[![Non-Commercial](https://img.shields.io/badge/禁止商用-red)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Lucifer5397/markitdown-skill)](https://github.com/Lucifer5397/markitdown-skill)
 
 > **多语言:** [English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md) | [हिन्दी](README.hi.md) | [العربية](README.ar.md)
@@ -96,4 +97,4 @@ markitdown-skill/
 
 ## License
 
-MIT — 开源，随意使用。
+CC BY-NC 4.0 — 个人、教育、研究用途免费。**禁止商业使用。**

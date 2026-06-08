@@ -1,7 +1,8 @@
 # MarkItDown Converter — Skill para Claude Code
 
 [![AgentSkill](https://img.shields.io/badge/AgentSkill-compatible-blue)](https://agentskills.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-red.svg)](LICENSE)
+[![Non-Commercial](https://img.shields.io/badge/Uso_No_Comercial-red)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Lucifer5397/markitdown-skill)](https://github.com/Lucifer5397/markitdown-skill)
 
 > **Multi-idioma:** [English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md) | [हिन्दी](README.hi.md) | [العربية](README.ar.md)
@@ -96,4 +97,4 @@ markitdown-skill/
 
 ## Licencia
 
-MIT — código abierto, úsalo como quieras.
+CC BY-NC 4.0 — gratuito para uso personal, educativo e investigación. **Uso comercial prohibido.**

@@ -1,7 +1,8 @@
 # MarkItDown कन्वर्टर — Claude Code स्किल
 
 [![AgentSkill](https://img.shields.io/badge/AgentSkill-compatible-blue)](https://agentskills.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-red.svg)](LICENSE)
+[![Non-Commercial](https://img.shields.io/badge/व्यावसायिक_उपयोग_निषिद्ध-red)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Lucifer5397/markitdown-skill)](https://github.com/Lucifer5397/markitdown-skill)
 
 > **बहुभाषी:** [English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md) | [हिन्दी](README.hi.md) | [العربية](README.ar.md)
@@ -96,4 +97,4 @@ markitdown-skill/
 
 ## लाइसेंस
 
-MIT — ओपन सोर्स, जो चाहें करें।
+CC BY-NC 4.0 — व्यक्तिगत, शैक्षिक और अनुसंधान उपयोग के लिए निःशुल्क। **व्यावसायिक उपयोग निषिद्ध।**

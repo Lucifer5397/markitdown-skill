@@ -1,7 +1,7 @@
 ---
 name: markitdown-converter
 description: Convert ANY file to Markdown — PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx/.xls), images (OCR), audio (transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPub, and more. Use when the user asks to convert, extract, or transform a file/document into Markdown; when they mention "markitdown", "convert to md", "extract text from PDF/Word/Excel", "document to markdown", or need document content for AI processing.
-license: MIT
+license: CC BY-NC 4.0 — Non-Commercial Use Only. See LICENSE for complete terms.
 metadata:
   author: open-source
   version: "1.0.0"
