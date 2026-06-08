@@ -2,94 +2,91 @@
 
 [![AgentSkill](https://img.shields.io/badge/AgentSkill-compatible-blue)](https://agentskills.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Lucifer5397/markitdown-skill)](https://github.com/Lucifer5397/markitdown-skill)
 
-一个 Claude Code / OpenClaw / Codex / Cursor 通用的 Agent Skill，基于微软 [MarkItDown](https://github.com/microsoft/markitdown)（131k+ Stars），将任何文件格式一键转换为 Markdown。
+> **Multi-language:** [English](README.md) | [简体中文](README.zh-CN.md) | [Español](README.es.md) | [हिन्दी](README.hi.md) | [العربية](README.ar.md)
 
-## 支持格式
+A universal Agent Skill for Claude Code, OpenClaw, Codex, Cursor, and VS Code Copilot. Powered by Microsoft [MarkItDown](https://github.com/microsoft/markitdown) (131k+ Stars). One command to convert any file to Markdown.
 
-| 类别 | 格式 |
-|------|------|
-| 文档 | PDF, Word (.docx), PowerPoint (.pptx) |
-| 表格 | Excel (.xlsx, .xls) |
-| 网页 | HTML, YouTube 视频链接 |
-| 数据 | CSV, JSON, XML |
-| 图片 | JPG, PNG, GIF, WebP, BMP, TIFF（OCR 提取文字） |
-| 音频 | MP3, WAV, FLAC, OGG, M4A（语音转文字） |
-| 压缩包 | ZIP（遍历所有内容） |
-| 电子书 | EPub |
-| 邮件 | .eml |
+## Supported Formats
 
-## 安装
+| Category | Formats |
+|----------|---------|
+| Documents | PDF, Word (.docx), PowerPoint (.pptx) |
+| Spreadsheets | Excel (.xlsx, .xls) |
+| Web | HTML, YouTube URLs |
+| Data | CSV, JSON, XML |
+| Images | JPG, PNG, GIF, WebP, BMP, TIFF (OCR) |
+| Audio | MP3, WAV, FLAC, OGG, M4A (transcription) |
+| Archives | ZIP (iterates all contents) |
+| E-books | EPub |
+| Email | .eml |
 
-### 1. 安装 Skill
+## Installation
 
-**方式一：直接复制**
+### 1. Install the Skill
+
 ```bash
 git clone https://github.com/Lucifer5397/markitdown-skill.git ~/.claude/skills/markitdown-converter/
 ```
 
-**方式二：ClawHub**
-```bash
-clawhub install markitdown-converter
-```
-
-### 2. 安装底层依赖
+### 2. Install the Python Package
 
 ```bash
 pip install "markitdown[all]"
 ```
 
-### 3. 可选：安装系统依赖
+### 3. Optional: System Dependencies
 
 ```bash
-# OCR（图片转文字）
+# OCR support (image to text)
 # Windows: winget install tesseract-ocr
 # macOS:   brew install tesseract
 # Linux:   sudo apt-get install tesseract-ocr
 
-# 音频转文字
+# Audio transcription
 # Windows: winget install ffmpeg
 # macOS:   brew install ffmpeg
 # Linux:   sudo apt-get install ffmpeg
 ```
 
-## 使用
+## Usage
 
-安装后直接在 Claude Code 中说：
+Once installed, simply say in Claude Code:
 
 ```
-"把这个 PDF 转成 Markdown"
-"把这份 Word 文档提取出来"
-"把文件夹里所有文档批量转成 md"
-"把这张图片里的文字提取出来"
+"Convert this PDF to Markdown"
+"Extract text from this Word document"
+"Convert all files in this folder to md"
+"Extract text from this image"
 ```
 
-Agent 会自动触发 `markitdown-converter` skill 来完成任务。
+The agent will auto-trigger `markitdown-converter` to handle the task.
 
-## Skill 结构
+## Skill Structure
 
 ```
 markitdown-skill/
-├── SKILL.md                        # 主 Skill 文件（AgentSkill 规范）
-├── README.md                       # 本文件
+├── SKILL.md                        # Main skill file (AgentSkill spec)
+├── README.md                       # This file
 ├── LICENSE                         # MIT License
 ├── references/
-│   ├── installation.md             # 详细安装指南
-│   ├── formats.md                  # 所有格式详细说明
-│   ├── advanced.md                 # 高级功能（Azure、插件、RAG）
-│   └── troubleshooting.md          # 常见问题排查
+│   ├── installation.md             # Full installation guide
+│   ├── formats.md                  # Format-by-format breakdown
+│   ├── advanced.md                 # Azure, plugins, RAG pipelines
+│   └── troubleshooting.md          # Common issues and fixes
 ├── examples/
-│   ├── basic_conversion.py         # 基础转换示例
-│   ├── batch_convert.py            # 批量转换脚本
-│   └── pipeline_example.py         # 完整 RAG pipeline
+│   ├── basic_conversion.py         # Basic conversion examples
+│   ├── batch_convert.py            # Parallel batch converter
+│   └── pipeline_example.py         # Full RAG pipeline
 └── scripts/
-    └── batch_convert.py            # 独立批量转换工具
+    └── batch_convert.py            # Standalone batch tool
 ```
 
-## 兼容性
+## Compatibility
 
-| AI Agent | 支持 |
-|----------|------|
+| AI Agent | Support |
+|----------|:------:|
 | Claude Code | Yes |
 | OpenClaw | Yes |
 | Codex (OpenAI) | Yes |
@@ -99,4 +96,4 @@ markitdown-skill/
 
 ## License
 
-MIT — 开源，随便用。
+MIT — open source, do whatever you want.
